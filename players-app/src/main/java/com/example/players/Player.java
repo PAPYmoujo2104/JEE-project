@@ -22,7 +22,7 @@ public class Player {
         this.team = team;
         this.id = id;
     }
-    
+
     public Player(String name, String lastName, String age, String pseudo, String nationality, String team) {
         this.name = name;
         this.lastName = lastName;

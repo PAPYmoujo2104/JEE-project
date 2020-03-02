@@ -2,7 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="../css/bootstrap.min.css">   		
-        <script src="../js/bootstrap.min.js"></script>     
+        <script src="../js/bootstrap.min.js"></script>
+        <title>Add a new player</title>
+
     </head>
     <body>
         <div class="container">

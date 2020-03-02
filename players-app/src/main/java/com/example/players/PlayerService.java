@@ -9,13 +9,13 @@ import java.util.stream.Collectors;
 
 public class PlayerService {
 
-    List<Player> playerList = PlayerList.getInstance();
+    static List<Player> playerList = PlayerList.getInstance();
 
     public List<Player> getAllPlayers() {
         return playerList;
     }
 
-    public List<Player> searchPlayers(String search) {
+    public static List<Player> searchPlayers(String search) {
         Comparator<Player> groupByComparator = Comparator.comparing(Player::getName)
                                                     .thenComparing(Player::getLastName)
                                                     .thenComparing(Player::getPseudo)

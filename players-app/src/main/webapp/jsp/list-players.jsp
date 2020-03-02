@@ -1,8 +1,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
     <head>
-        <link rel="stylesheet" href="../css/bootstrap.min.css">   		
-        <script src="../js/bootstrap.min.js"></script>       
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.min.js"></script>
+        <title>List of Players</title>
+
     </head>
 
     <body>          
@@ -37,9 +39,9 @@
                                 <tr>
                                     <td>#</td>
                                     <td>Name</td>
+                                    <td>Pseudo</td>
                                     <td>Last name</td>
                                     <td>Age</td>
-                                    <td>Pseudo</td>
                                     <td>Nationality</td>
                                     <td>Team</td>
                                     <td></td>
